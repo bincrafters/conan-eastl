@@ -15,10 +15,9 @@ class EastlConan(ConanFile):
     exports_sources = ["CMakeLists.txt"]
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
-    options = {"shared": [False]}
+    options = {"shared": [False, True]}
     default_options = "shared=False"
     source_subfolder = "source_subfolder"
-    build_subfolder = "build_subfolder"
 
     def source(self):
         source_url = "https://github.com/electronicarts/EASTL"
