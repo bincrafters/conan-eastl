@@ -22,7 +22,7 @@ class EastlConan(ConanFile):
     def source(self):
         source_url = "https://github.com/electronicarts/EASTL"
         tools.get("{0}/archive/{1}.tar.gz".format(source_url, self.version))
-        extracted_dir = self.name + "-" + self.version
+        extracted_dir = self.name.upper() + "-" + self.version
         os.rename(extracted_dir, self.source_subfolder)
 
 
