@@ -35,12 +35,8 @@ class EastlConan(ConanFile):
         cmake = CMake(self)
         cmake.install()
         self.copy(pattern="LICENSE", dst="licenses")
-        # The rest of the library is copied by cmake.install()
 
     def package_info(self):
         self.cpp_info.libs = tools.collect_libs(self)
-
-    def package_info(self):
-        self.cpp_info.libs = tools.collect_libs(self)
-        if self.settings.os == 'Linux':
-            self.cpp_info.libs += ['pthread']
+        if self.settings.compiler in ("clang", "gcc"):
+            self.cpp_info.libs += ["pthread"]
