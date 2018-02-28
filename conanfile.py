@@ -33,6 +33,7 @@ class EastlConan(ConanFile):
 
     def package(self):
         cmake = CMake(self)
+        cmake.configure()
         cmake.install()
         self.copy(pattern="LICENSE", dst="licenses")
 
