@@ -38,3 +38,9 @@ tmp/
 
 # IDE
 .idea/*
+.project
+.pydevproject
+.settings/*
+.ropeproject/*
+## emacs
+*~

@@ -1,10 +1,10 @@
 ## Package Status
 
-| Bintray | Windows | Linux & macOS | 
+| Bintray | Windows | Linux & macOS |
 |:--------:|:---------:|:-----------------:|
-|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/eastl%3Abincrafters/images/download.svg)](https://bintray.com/bincrafters/public-conan/eastl%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-eastl?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-eastl)|[![Build Status](https://travis-ci.org/bincrafters/conan-eastl.svg)](https://travis-ci.org/bincrafters/conan-eastl)|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/eastl%3Abincrafters/images/download.svg)](https://bintray.com/bincrafters/public-conan/eastl%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-eastl?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-eastl)|[![Build Status](https://travis-ci.com/bincrafters/conan-eastl.svg)](https://travis-ci.com/bincrafters/conan-eastl)|
 
-## Conan.io Information
+## Conan Information
 
 Bincrafters packages can be found in the following public Conan repository:
 
@@ -39,9 +39,7 @@ The contents of this GIT repository are completely separate from the software be
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/package/<random_package_id>/license/<LICENSE_FILES_HERE>
 
 *Note :   The most common filenames for OSS licenses are `LICENSE` AND `COPYING` without file extensions.*
-	
+
 ### License for Bincrafters recipe:
 
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/export/LICENSE.md
-
-	
