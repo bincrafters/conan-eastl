@@ -7,7 +7,7 @@ import os
 
 class EastlConan(ConanFile):
     name = "eastl"
-    version = "3.07.00"
+    version = "3.13.04"
     description = "EASTL stands for Electronic Arts Standard Template Library. It is an extensive and robust implementation that has an emphasis on high performance."
     topics = ("conan", "eastl", "stl", "high-performance")
     url = "https://github.com/bincrafters/conan-eastl"
