@@ -25,7 +25,8 @@ class EastlConan(ConanFile):
     _source_subfolder = "source_subfolder"
 
     def source(self):
-        tools.get("{0}/archive/{1}.tar.gz".format(self.homepage, self.version), sha256="85a505f6f64a06fa3474305850bddbca8a0f7804abb7aa867138c3669780808d")
+        sha256 = "1f6279fb4347cbe2c28a7d4f62401db9347686b8e940b02ac8bb67b080f0324f"
+        tools.get("{0}/archive/{1}.tar.gz".format(self.homepage, self.version), sha256=sha256)
         extracted_dir = self.name.upper() + "-" + self.version
         os.rename(extracted_dir, self._source_subfolder)
 
