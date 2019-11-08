@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from conans import ConanFile, CMake, tools
 import os
 
@@ -12,7 +9,6 @@ class EastlConan(ConanFile):
     topics = ("conan", "eastl", "stl", "high-performance")
     url = "https://github.com/bincrafters/conan-eastl"
     homepage = "https://github.com/electronicarts/EASTL"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSD 3-Clause"
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
